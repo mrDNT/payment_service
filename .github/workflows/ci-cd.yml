@@ -24,7 +24,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python3 test_company_service.py
+          python3 ./tests/payment_tests.py
 
   build-and-push-to-dh:
     name: Build and push to DockerHub
