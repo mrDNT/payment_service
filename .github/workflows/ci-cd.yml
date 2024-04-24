@@ -27,7 +27,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest .tests/payment_tests
+          pytest /tests/payment_tests
 
   build-and-push-to-dh:
     name: Build and push to DockerHub
